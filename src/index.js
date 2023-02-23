@@ -51,6 +51,7 @@ const displayResults = (data, imageUrl) => {
         <div class="desc-box">
           <p class=single-person">Name' :  ${data.name}</p>
           <p class=single-person"> Gender :  ${data.gender}</p>
+          <p class=single-person"> Gender :  ${data.height}</p>
           <button  id="reload-button" class="btn">Go back</button>
         </div>
         </div>
